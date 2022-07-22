@@ -5,7 +5,7 @@ import A1 from './components/a1';
 function App() {
   return (
     <>
-    <A1></A1>
+    <A1 name="hello from props side"></A1>
     </>
   );
 }
