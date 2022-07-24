@@ -6,7 +6,7 @@ import Counter from './components/counter';
 function App() {
   return (
     <>
-    <A1 name="hello from props side"></A1>
+    <A1 name="Raj"></A1>
     <Counter></Counter>
     </>
   );
