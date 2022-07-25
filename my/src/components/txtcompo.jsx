@@ -13,6 +13,11 @@ export default function Text() {
     setCount(event.target.value);
   }
 
+  const clr=()=>{
+
+    setCount(' ');
+  }
+
 
   return (
     <>
@@ -25,8 +30,10 @@ export default function Text() {
 </div>
 
 <h1>{count}</h1>
-
+<h1>{count.length}</h1>
+<h1>{count.split(' ').length}</h1>
     <button className="btn btn-primary" onClick={b}>Click-me</button>
+    <button className="btn btn-primary m-5" onClick={clr}>Clear</button>
     </div>
     </>
   )
