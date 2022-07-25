@@ -3,6 +3,7 @@ import './App.css';
 import A1 from './components/a1';
 import Counter from './components/counter';
 import Clock from './components/clock';
+import Text from './components/txtcompo';
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
 
 <div className="container m-5">
 <Clock></Clock>
+<Text></Text>
 </div>
+
     </>
   );
 }
