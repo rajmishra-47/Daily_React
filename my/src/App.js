@@ -5,6 +5,7 @@ import Counter from './components/counter';
 import Clock from './components/clock';
 import Text from './components/txtcompo';
 import Darkmode from './components/darkmode';
+import C1 from './components/c1';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
 <Clock></Clock>
 <Text></Text>
 <Darkmode/>
-
+<C1/>
 </div>
     </>
   );
