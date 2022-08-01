@@ -1,5 +1,8 @@
 import React from 'react'
 import './d11.css'
+
+import CNC from './cnc'
+
 export default function D1(props) {
   
   const c=(a,b)=>{
@@ -14,6 +17,8 @@ export default function D1(props) {
     </div>
 
     <h1>{(parseInt(props.a)+parseInt(props.b))}</h1>
+
+    <CNC></CNC>
     </>
   )
 }
