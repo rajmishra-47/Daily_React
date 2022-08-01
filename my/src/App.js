@@ -20,7 +20,7 @@ function App() {
 <Darkmode/>
 <C1/>
 
-<D1 a="1" b="1" />
+<D1 a="1" b="1"/>
 </div>
     </>
   );

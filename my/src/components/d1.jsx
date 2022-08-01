@@ -1,10 +1,16 @@
-import React from 'react'
+import React ,{useEffect} from 'react'
 import './d11.css'
 
 import CNC from './cnc'
 
 export default function D1(props) {
   
+  let k=1;
+  useEffect(()=>{
+    
+  })
+
+
   const c=(a,b)=>{
     return (a+b);
   }
@@ -25,7 +31,9 @@ export default function D1(props) {
 
     <CNC></CNC>
 
-    {/* <button onClick={clc()}> click me</button> */}
+    <button onClick={clc()}> click me</button>
+
+    <h1>{k}</h1>
     </>
   )
 }
