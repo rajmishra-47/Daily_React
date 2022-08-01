@@ -9,6 +9,11 @@ export default function D1(props) {
     return (a+b);
   }
 
+  const clc=()=>{
+    console.log("you clicked");
+  }
+
+
   const date=new Date();
   return (
     <>
@@ -19,6 +24,8 @@ export default function D1(props) {
     <h1>{(parseInt(props.a)+parseInt(props.b))}</h1>
 
     <CNC></CNC>
+
+    {/* <button onClick={clc()}> click me</button> */}
     </>
   )
 }
