@@ -1,0 +1,10 @@
+body{
+
+    background-image: url('https://source.unsplash.com/random');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: aliceblue;
+
+    /* background-blend-mode:saturation; */
+}

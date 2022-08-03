@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import './components/bg.css'
 import A1 from './components/a1';
 import Counter from './components/counter';
 import Clock from './components/clock';
